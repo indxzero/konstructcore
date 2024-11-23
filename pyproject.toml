@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "konstructcore"
+version = "0.0.1"
+description = "Cross-platform data types and async building blocks to empower the high-level konstruct business logic. Require Python 3.9+."
+authors = ["A Pal <aplpl@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.9,<=3.14"
+yapf = "^0.43.0"
+mypy = "^1.13.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
